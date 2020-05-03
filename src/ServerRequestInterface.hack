@@ -6,7 +6,7 @@ interface ServerRequestInterface extends Message\ServerRequestInterface {
 
   public function getAttributes(): dict<string, mixed>;
 
-  public function getAttribute<T>(string $name, ?T $default = null): T;
+  public function getAttribute<T>(string $name, ?T $default = null): ?T;
 
   public function withAttribute(string $name, mixed $value): this;
 
