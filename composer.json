@@ -1,0 +1,34 @@
+{
+  "name": "nazg/http-server-request-handler",
+  "description": "extended interface for HTTP messages",
+  "keywords": [
+    "hhvm",
+    "hack",
+    "http-handlers",
+    "request",
+    "server"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Yuuki Takezawa",
+      "email": "yuuki.takezawa@comnect.jp.net"
+    }
+  ],
+  "require": {
+    "hhvm": "^4.41",
+    "hhvm/hsl-experimental": "^4.50",
+    "facebook/hack-http-request-response-interfaces": "^0.3"
+  },
+  "require-dev": {
+    "hhvm/hhast": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ytake\\Extended\\HttpMessage\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

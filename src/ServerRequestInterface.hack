@@ -1,8 +1,3 @@
-# Ytake\Extended\HttpMessage
-
-Defines common cross-framework interfaces to represent HTTP requests and responses
-
-```hack
 namespace Ytake\Extended\HttpMessage;
 
 use namespace Facebook\Experimental\Http\Message;
@@ -17,4 +12,3 @@ interface ServerRequestInterface extends Message\ServerRequestInterface {
 
   public function withoutAttribute(string $name): this;
 }
-```
